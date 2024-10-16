@@ -46,7 +46,7 @@ def extract_degrees_from_resume(resume_text, degrees):
     return list(set(matches))
 
 
-def extract_education_with_prefixes(resume_text, degrees):
+def extract_education(resume_text):
     """
     Extract educational qualifications from the resume text,
     including degree prefixes and words in between.
@@ -58,6 +58,11 @@ def extract_education_with_prefixes(resume_text, degrees):
     Returns:
         list: A list of extracted educational qualifications.
     """
+    # Construct path
+    project_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
+    education_file_path = os.path.join(project_dir, "data", "education.csv")
+    # Load degrees from CSV
+    degrees = load_degrees_from_csv(education_file_path)
     # Extract degrees without prefixes
     extracted_degrees = extract_degrees_from_resume(resume_text, degrees)
 
@@ -84,7 +89,7 @@ def extract_education_with_prefixes(resume_text, degrees):
 
 # Example usage
 if __name__ == "__main__":
-    project_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    project_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
     csv_file_path = os.path.join(project_dir, "data", "education.csv")
     resume_text = """
     John Doe
@@ -97,4 +102,4 @@ if __name__ == "__main__":
 
     degrees_list = load_degrees_from_csv(csv_file_path)
 
-    print(extract_education_with_prefixes(resume_text, degrees_list))
+    print(extract_education(resume_text))

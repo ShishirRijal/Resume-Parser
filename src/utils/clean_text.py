@@ -26,7 +26,8 @@ def clean_text(text):
         str: The cleaned text.
     """
     text = re.sub(r"\n+", "\n", text)  # Remove extra newlines
-    text = re.sub(r"[^\w\s]", " ", text)  # Remove punctuation
+    # removing the punctuation was causing issues with phone numbers and emails
+    # text = re.sub(r"[^\w\s]", " ", text)  # Remove punctuation
     text = re.sub(r"\s+", " ", text)  # Remove extra spaces
     text = text.lower()  # Convert to lowercase
 

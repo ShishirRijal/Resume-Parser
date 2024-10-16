@@ -9,7 +9,7 @@ import re
 import spacy
 
 
-def extract_email_from_resume(resume_text):
+def extract_email(resume_text):
     """
     Extract the applicant's email address from the resume text.
 
@@ -74,7 +74,7 @@ Awards/Activities: Received the "Engineering Excellence" Award for outstanding
 contributions to project innovation, Borcelle Technologies
     """
 
-    email = extract_email_from_resume(resume_text)
+    email = extract_email(resume_text)
     if email:
         print(f"Extracted email: {email}")
     else:

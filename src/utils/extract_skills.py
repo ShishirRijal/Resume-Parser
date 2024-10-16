@@ -10,7 +10,7 @@ import os
 
 
 # Get the current working directory
-project_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+project_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 
 # Construct the file paths
 skills_file_path = os.path.join(project_dir, "data", "skills.csv")

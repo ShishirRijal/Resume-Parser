@@ -8,7 +8,7 @@ This script extracts phone number of applicant from a resume.
 import re
 
 
-def extract_phone_number_from_resume(resume_text):
+def extract_phone_number(resume_text):
     """
     Extract the applicant's phone number from the resume text.
 
@@ -61,5 +61,5 @@ Awards/Activities: Received the "Engineering Excellence" Award for outstanding
 contributions to project innovation, Borcelle Technologies
     """
 
-    phone_number = extract_phone_number_from_resume(resume_text)
+    phone_number = extract_phone_number(resume_text)
     print(f"Extracted Phone Number: {phone_number}")
