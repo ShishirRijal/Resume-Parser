@@ -132,13 +132,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <img width="1469" alt="Screenshot 2024-10-16 at 3 43 08 PM" src="https://github.com/user-attachments/assets/13e75a03-3ab2-43f8-8304-b60fe9b3d452">
 <img width="1464" alt="Screenshot 2024-10-16 at 3 43 23 PM" src="https://github.com/user-attachments/assets/7827a2b8-9ae5-4ac6-bae0-c457efddb21b">
 
-## 🌟 Awesome Resources
-
-- [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
-- [Awesome Python](https://github.com/vinta/awesome-python)
-- [Awesome Streamlit](https://github.com/MarcSkovMadsen/awesome-streamlit)
-- [Awesome PDF](https://github.com/py-pdf/awesome-pdf)
-- [Awesome NLP](https://github.com/keon/awesome-nlp)
 
 ## 🚀 Future Enhancements
 
