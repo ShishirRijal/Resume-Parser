@@ -21,7 +21,7 @@ Resume Parser is a tool designed to extract key information from resumes in PDF 
 ## Directory Structure
 
 ```
-RESUMEPARSER/
+RESUME-PARSER/
 │
 ├── data/
 │   ├── background.jpg
