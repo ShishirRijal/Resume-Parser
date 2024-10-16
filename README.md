@@ -114,3 +114,12 @@ You can customize the skill and education databases by modifying the CSV files i
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Snaps
+<img width="1466" alt="Screenshot 2024-10-16 at 3 42 24 PM" src="https://github.com/user-attachments/assets/8cdd2d30-a423-424b-bc61-fee1378cbb88">
+<img width="1463" alt="Screenshot 2024-10-16 at 3 42 44 PM" src="https://github.com/user-attachments/assets/a9308717-70be-471f-aa4f-4ddba82d015a">
+<img width="1469" alt="Screenshot 2024-10-16 at 3 43 08 PM" src="https://github.com/user-attachments/assets/13e75a03-3ab2-43f8-8304-b60fe9b3d452">
+<img width="1464" alt="Screenshot 2024-10-16 at 3 43 23 PM" src="https://github.com/user-attachments/assets/7827a2b8-9ae5-4ac6-bae0-c457efddb21b">
+
+
+
