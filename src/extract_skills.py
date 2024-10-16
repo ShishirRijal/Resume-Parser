@@ -1,5 +1,5 @@
 """
-skills_extractor.py
+extract_skills.py
 
 This script extracts skills from a resume and matches them with job-specific skills.
 

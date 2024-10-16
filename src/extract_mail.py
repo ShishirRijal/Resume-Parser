@@ -1,3 +1,10 @@
+"""
+extract_email.py
+
+This script extracts mail address from a resume.
+
+"""
+
 import re
 import spacy
 
@@ -18,10 +25,13 @@ def extract_email_from_resume(resume_text):
         return match.group()
 
 
-# We can also use spacy to get the job done,
-# but it's an overkill for this simple task.
-# Also, using spacy will cause Performance Overhead
-# Here is the code using spacy
+# * Alternative Approach [Using Spacy]
+# While regular expressions are often sufficient for simple email extraction,
+# spaCy offers an alternative approach that might be useful in more complex scenarios.
+# However, spaCy can introduce performance overhead
+# compared to a regular expression for this specific task.
+
+
 def extract_email_using_spacy(resume_text):
     nlp = spacy.load("en_core_web_sm")
     doc = nlp(resume_text)
